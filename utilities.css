@@ -42,6 +42,7 @@
     -webkit-transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
     transition: all 0.4s cubic-bezier(0.88,-0.99, 0, 1.81);
     padding: 10px;
+    font-size: large;
   }
   
   .hovereffect a.info {
@@ -56,6 +57,7 @@
     transition: all 0.4s ease;
     margin: 50px 0 0;
     padding: 7px 14px;
+
   }
   
   .hovereffect a.info:hover {
