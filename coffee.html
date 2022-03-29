@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="container">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-3">
@@ -23,9 +23,9 @@
                             <img src="media/images/logo-text.png" alt="logo" class="img-fluid" >
                         </a>
                     </div>
-                    <div class="col align-self-end">
+                    <div class="col align-self-center">
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0  >
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="home.html">Home</a>
                             </li>
@@ -59,7 +59,17 @@
 
     <div class="container-fluid">
         <div class="row">
-        <div class="card mb-3 mt-5 pt-5">
+            <div class="col mb-3 mt-5 pt-5 p-5 clearfix">
+                <h1 class="display-6">Our Coffees</h1>
+                <div class=" h4 z-index-n1 pe-5 float-md-end">Zoom to explore our South American coffees</div>
+                <div id="map"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+        <div class="card mb-3 p-5 bg-black text-white">
             <div class="row align-items-center">
               <div class="col-md-4">
                 <img src="media/images/coffee-plant.jpeg" class="img-fluid rounded" alt="...">
@@ -69,7 +79,7 @@
                   <h4 class="card-text">Our range of carefully roasted, single-origin coffees are perfect for brewing at home, whatever your preferred brewing style.</h5>
                     <h5 class="card-text">                   
                         We source our beans directly from farmers through a cooperative network. Each purchase goes towards supporting farmers and their local communities & funding initiatives that aim to reduce the impact of climate change on coffee production.</h5>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                      <p class="card-text"></p>
                   </h5>
                   
                 </div>
@@ -104,11 +114,18 @@
             </div>
             
         </div>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <div id="map"></div>
+        
+    </div>
+
+    <div class="container-fluid pt-3 mt-3 p-0">
+        <div class="row">
+            <div class="col">
+                <div class="card bg-black text-white p-5 ">
+                    <h1 class="card-text display-6 pb-3 ">Our Community Cooperatives</h1>
+                    <p class="h5 me-5">Here at the Coffee Roastery, we're keen to make sure we create a sustainable, supportive coffee industry. Climate change is having a huge impact on our environment and its effects are already being felt by the communities we work with.
+                    </p>
                 </div>
+                
             </div>
         </div>
     </div>

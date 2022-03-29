@@ -1,11 +1,13 @@
 var simplemaps_worldmap_mapdata={
   main_settings: {
    //General settings
-    width: "responsive", //'700' or 'responsive'
+    width: 'responsive', //'700' or 'responsive'
+    minWidth: "1000rem",
     background_color: "#FFFFFF",
     background_transparent: "yes",
     border_color: "#ffffff",
     popups: "detect",
+    
     
     //State defaults
     state_description:"",
@@ -39,8 +41,22 @@ var simplemaps_worldmap_mapdata={
     hide_labels: "no",
    
     //Zoom settings
-    zoom: "yes",
+    //zoom: "yes",
+   /* back_image: "no",
+    initial_back: "no",
+    initial_zoom: "1",
+    initial_zoom_solo: "yes",
+    region_opacity: 1,
+    region_hover_opacity: 0.6,
+    zoom_out_incrementally: "yes",
+    zoom_percentage: 0.99,
+    zoom_time: 0.5,*/
+    manual_zoom: "yes",
     back_image: "no",
+    arrow_box: "no",
+    navigation_size: "40",
+    navigation_color: "#f7f7f7",
+    navigation_border_color: "#636363",
     initial_back: "no",
     initial_zoom: "1",
     initial_zoom_solo: "yes",
@@ -136,7 +152,7 @@ var simplemaps_worldmap_mapdata={
       color: "#FAD000",
       url: "/Bootstrap%20Coffee/brazil.html",
       zoomable: "yes",
-      state_description: "nutty",
+      description: "Raisin, Mandarin, Honey",
     },
     BN: {
       name: "Brunei Darussalam"
@@ -178,7 +194,8 @@ var simplemaps_worldmap_mapdata={
       name: "Colombia",
       color: "#ff9933",
       url: "/Bootstrap%20Coffee/colombia.html",
-      zoomable: "yes"
+      zoomable: "yes",
+      description: "Toffee, Praline, Berries",
     },
     CR: {
       name: "Costa Rica"
@@ -259,7 +276,8 @@ var simplemaps_worldmap_mapdata={
       name: "Guatemala",
       color: "#db4035",
       url: "/Bootstrap%20Coffee/guatemala.html",
-      zoomable: "yes"
+      zoomable: "yes",
+      description: "Chocolate, Hazelnut, Molasses",
     },
     GY: {
       name: "Guyana"
