@@ -1,7 +1,7 @@
 .img-scaling {
     min-width: 250px;
 }
-.text-dec a {
+.text-dec li , ::marker {
     text-decoration: none;
 }
 
@@ -19,4 +19,10 @@
         bottom: 0;
         width: 100%;
         height: 60px;
+}
+
+.logo-white {
+    background-color: white!important;
+    color:white!important;
+    opacity: 1;
 }
