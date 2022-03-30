@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 
-.list-group-item, .li, .ul , .a, .text-dec {
+.list-group-item, .li, .ul , .a, {
     text-decoration: none;
     background-color: black;
     /*color: white;*/
@@ -25,4 +25,8 @@
     background-color: white!important;
     color:white!important;
     opacity: 1;
+}
+.text-dec {
+    text-decoration: none;
+        color: white;
 }

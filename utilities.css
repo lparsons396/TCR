@@ -1,4 +1,5 @@
 /* Hover Effect */
+
 .hovereffect {
     width: 100%;
     height: 100%;
@@ -87,3 +88,4 @@
     -webkit-transition-delay: .2s;
     transition-delay: .2s;
   }
+
