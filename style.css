@@ -10,9 +10,9 @@
     background-color: black;
     /*color: white;*/
 }
-.list-group-item a:hover, .text-dec a:hover {
+/*.list-group-item a:hover, .text-dec a:hover  {
     color: orange;
-}
+}*/
 
 .footer {
         position: absolute;
@@ -30,3 +30,4 @@
     text-decoration: none;
         color: white;
 }
+

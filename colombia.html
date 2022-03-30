@@ -17,17 +17,22 @@
 </head>
 <body>
     <div class="container">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black">
-            <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black ">
+            <div class="container-fluid d-flex">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-md-4">
                         <a class="navbar-brand" href="#">
-                            <img src="media/images/logo-text.png" alt="logo" class="img-fluid" >
+                            <img src="media/images/logo-text.png" alt="logo" class="img-fluid img-scaling" >
                         </a>
                     </div>
-                    <div class="col align-self-center">
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    
+                        <div class="collapse navbar-collapse col-3 me-2" id="navbarSupportedContent">
+                          
+                            <ul class="navbar-nav me-2 mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="home.html">Home</a>
                             </li>
