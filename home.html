@@ -16,8 +16,8 @@
     
 </head>
 <body>
-    <div class="container">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black ">
+    <div class="container-fluid" >
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black " id="header">
             <div class="container-fluid d-flex">
                 <div class="row">
                     <div class="col-md-4">
@@ -41,13 +41,12 @@
                                 Coffee
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="coffee.html">Coffee</a></li>
+                                <li><a class="dropdown-item" href="coffee.html">Our Coffees</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="brazil.html">Brazilian</a></li>
                                 <li><a class="dropdown-item" href="guatemala.html">Guatemalan</a></li>
                                 <li><a class="dropdown-item" href="colombia.html">Colombian</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="brewingtips.html">Brewing Tips</a></li>
+                                                                
                                 </ul>
                             </li>
                             <li class="nav-item">
@@ -57,6 +56,10 @@
                                 <a class="nav-link" href="subscription.html">Subscription</a>
                             </li>
                             </ul>
+                            <form class="d-flex">
+                              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                              <button class="btn btn-outline-light" type="submit">Search</button>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -64,7 +67,7 @@
           </nav>
     </div>     
 
-    <div class="container-fluid pt-5 mt-5 px-3">
+    <div class="container-fluid pt-5 mt-5 px-3" id="content">
       
       <div class="row justify-content-center mt-4 pt-auto">
           <div class="col-lg g-3 hovereffect">
@@ -106,10 +109,10 @@
         </div>
       </div>
     </div>
-      
-  <footer class="bg-black text-center navbar-dark text-white text-dec ">
+  
+  <footer class=" container-fluid bg-black text-center fixed-bottom navbar-dark text-white text-dec " id="footer">
       <!-- Grid container -->
-      <div class="container-fluid pt-4">
+      <div class="container-fluid pt-4" id="footer">
         <!-- Section: Social media -->
         <div class="row mx-5 px-5">
           <div class="col"><a class="text-dec" href="home.html">Home</a></div>
@@ -161,11 +164,13 @@
             </div>
             <!--Grid row-->
           </form>
-        </section>
+        </div>
+        
         <!-- Section: Form -->
 
       </div>
   </footer>
+
   <!-- Footer -->
     </div>
 </div>
