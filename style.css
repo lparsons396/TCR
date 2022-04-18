@@ -64,3 +64,19 @@
   .fab, .fa-brands {
       color:white;
   }
+
+  .star {
+      color: #ff9800;
+      font-size: 2rem;
+      background-color: unset;
+      border: none;
+      padding: 0;
+  }
+  .star:hover {
+      cursor: pointer;
+      color: #ffa827;
+  }
+
+  .star-rating {
+      user-select: none;
+  }
