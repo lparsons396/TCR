@@ -1,0 +1,1 @@
+Hi, this is my coffee website. It's the latest in the line of several improved versions where I incorporate new skills as I learn them. My next move is to tie in Python and Django for some user authentication :)
